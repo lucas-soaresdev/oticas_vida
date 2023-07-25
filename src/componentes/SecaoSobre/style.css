@@ -37,3 +37,30 @@
     font-size: 22px;
     color: #4a4a4a;
 }
+
+@media (max-width: 768px){
+    .box-sobre{
+        padding: 60px 20px;
+    }
+    .box-sobre .cards{
+        padding: 15px;
+    }
+    .box-sobre .cards h3{
+        font-size: 22px;
+    }
+    .box-sobre .cards p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 550px){
+    .box-sobre{
+        padding: 0 10px;
+    }
+    .box-sobre .container-cards{
+        flex-direction: column;
+    }
+    .box-sobre .container-cards img, .box-sobre .container-cards .cards{
+        width: 100%;
+        height: 300px;
+    }
+}

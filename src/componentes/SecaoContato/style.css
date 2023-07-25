@@ -27,3 +27,23 @@ figure figcaption{
     font-size: 14px;
     margin-left: 10px;
 }
+
+@media (max-width: 768px){
+    .box-contato{
+        padding: 60px 20px;
+    }
+}
+@media (max-width: 550px){
+    .box-contato{
+        padding: 0 10px;
+    }   
+    .container-informacoes{
+        flex-direction: column;
+    }
+    .container-informacoes div{
+        align-items: center;
+    }
+    figure{
+        width: 150px;
+    }
+}

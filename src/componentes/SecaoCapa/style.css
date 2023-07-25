@@ -28,3 +28,20 @@
     letter-spacing: 5px;
     line-height: 70px;
 }
+
+@media (max-width: 768px){
+    .box-capa h1{
+        font-size: 40px;
+        max-width: 350px;
+    }
+    .box-capa p{
+        font-size: 20px;   
+    }
+}
+@media (max-width: 550px){
+    .box-capa{background-position: 89% center;
+    }
+    .container-capa{
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+}

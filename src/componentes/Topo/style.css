@@ -24,3 +24,15 @@ header a{
     padding: 5px;
     margin: 5px;
 }
+
+@media (max-width: 550px){
+    .container-topo{
+        flex-direction: column;
+    }
+    .container-topo ul{
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        border-top: 1px solid #aaadaf;
+    }
+}

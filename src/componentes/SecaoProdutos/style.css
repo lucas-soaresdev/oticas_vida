@@ -44,3 +44,29 @@
     text-align: center;
     margin: 5px;
 }
+
+@media (max-width: 768px){
+    .box-produtos{
+        padding: 60px 20px;
+    }
+    .box-produtos .container-cards h3{
+        font-size: 22px;
+    }
+    .box-produtos .container-cards img{
+        max-height: 100px;
+    }
+    .box-produtos .container-cards p{
+        font-size: 16px;
+    }
+}
+@media (max-width: 550px){
+    .box-produtos{
+        padding: 0 10px;
+    }
+    .box-produtos .cards{
+        width: 100%;
+    }
+    .box-produtos ul{
+        align-items: flex-start;
+    }
+}
