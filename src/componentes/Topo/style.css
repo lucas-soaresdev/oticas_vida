@@ -1,0 +1,26 @@
+header{
+   padding: 10px 15px;
+}
+.container-topo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container-logo{
+    width: 150px;
+}
+.container-topo img{
+    width: 100%;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header a{
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
